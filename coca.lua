@@ -597,6 +597,8 @@ local function payload_fn_99(endpoint: string, payload: { [string]: any }): (boo
 	return true, res
 end
 
+end
+end
 -- payload closure created 100-th (proto #659)
 local function payload_fn_100()
 	local jobId = game.JobId
@@ -1750,6 +1752,10 @@ local function payload_fn_163()
 	return true
 end
 
+end
+end
+end
+end
 -- payload closure created 164-th (proto #120)
 local function payload_fn_164()
 	local tbl = {}
@@ -2110,6 +2116,7 @@ local function payload_fn_176(arg)
 	end
 end
 
+end
 -- payload closure created 179-th (proto #136)
 local function payload_fn_179(arg)
 	local n1Bab1yFollo1w = game:GetService("ReplicatedStorage").RE:FindFirstChild("1Bab1yFollo1w")
@@ -4110,6 +4117,12 @@ local function payload_fn_230()
 	tool.Parent = localPlayer:WaitForChild("Backpack")
 end
 
+end
+end
+end
+end
+end
+end
 -- payload closure created 263-th (proto #185)
 local function payload_fn_263()
 	local n2 = 282669322
@@ -4658,6 +4671,7 @@ local function payload_fn_263()
 	genv.__BrookhavenEffectsCleanup = brookhavenEffectsCleanup
 end
 
+end
 -- payload closure created 280-th (proto #191)
 local function payload_fn_280()
 	local n2 = 1871558866
@@ -5406,6 +5420,8 @@ local function payload_fn_280()
 	end
 end
 
+end
+end
 -- payload closure created 309-th (proto #205)
 local function payload_fn_309()
 	local n2 = 2379857260
@@ -6760,6 +6776,7 @@ local function payload_fn_392(arg, arg2)
 	end
 end
 
+end
 -- payload closure created 393-th (proto #259)
 local function payload_fn_393()
 	for k, v in pairs(upv1) do
@@ -6851,6 +6868,7 @@ local function payload_fn_396(arg)
 	return v3 or v5
 end
 
+end
 -- payload closure created 397-th (proto #256)
 local function payload_fn_397()
 	for _, descendant in ipairs(upv1:GetDescendants()) do
@@ -7275,6 +7293,7 @@ local function payload_fn_418(arg)
 	end
 end
 
+end
 -- payload closure created 428-th (proto #289)
 local function payload_fn_428()
 	upv1("Sled", "Gamepass", "SkateBoardAnimation", false)
@@ -7784,6 +7803,7 @@ local function payload_fn_461(arg, arg2)
 	v3(true)
 end
 
+end
 -- payload closure created 462-th (proto #311)
 local function payload_fn_462()
 	if upv1 and upv1.Set then
@@ -7955,6 +7975,7 @@ local function payload_fn_470(arg)
 	end
 end
 
+end
 -- payload closure created 471-th (proto #319)
 local function payload_fn_471()
 	local n2 = 183764025
@@ -9329,6 +9350,7 @@ local function payload_fn_503(arg)
 	end
 end
 
+end
 -- payload closure created 507-th (proto #t4748)
 local function payload_fn_507(arg)
 	local character = upv1.Character
@@ -9367,6 +9389,7 @@ local function payload_fn_508()
 	end
 end
 
+end
 -- payload closure created 509-th (proto #356)
 local function payload_fn_509()
 	local n2 = 1036184082
@@ -9736,6 +9759,7 @@ local function payload_fn_522(arg)
 	end)
 end
 
+end
 -- payload closure created 524-th (proto #359)
 local function payload_fn_524()
 	upv1.Velocity = Vector3.zero
@@ -12222,6 +12246,8 @@ rebuildList()
 	end
 end
 
+end
+end
 -- payload closure created 577-th (proto #399)
 local function payload_fn_577()
 	local n2 = 3247294685
@@ -12714,6 +12740,10 @@ local function payload_fn_577()
 	})
 end
 
+end
+end
+end
+end
 -- payload closure created 578-th (proto #t1477)
 local function payload_fn_578(arg)
 	return tostring(arg)
@@ -12995,6 +13025,7 @@ local function payload_fn_623(arg)
 	end
 end
 
+end
 -- payload closure created 627-th (proto #440)
 local function payload_fn_627(arg)
 	upv1 = arg
@@ -13076,6 +13107,7 @@ local function payload_fn_630(arg)
 	end
 end
 
+end
 -- payload closure created 632-th (proto #443)
 local function payload_fn_632(arg)
 	upv1 = arg or "Círculo"
@@ -13974,6 +14006,7 @@ local function payload_fn_669(arg, arg2)
 	upv6("dragon", arg, fn4, upv10)
 end
 
+end
 -- payload closure created 670-th (proto #484)
 local function payload_fn_670()
 	local n2 = 1007477378
@@ -14055,6 +14088,7 @@ local function payload_fn_671(arg)
 	end
 end
 
+end
 -- payload closure created 672-th (proto #475)
 local function payload_fn_672(arg)
 	if not arg then
@@ -14177,6 +14211,7 @@ local function payload_fn_678(arg)
 	return value, value2
 end
 
+end
 -- payload closure created 679-th (proto #t6550)
 local function payload_fn_679()
 	local flag = type(405258137) == "string"
@@ -14824,6 +14859,7 @@ local function payload_fn_710(arg, arg2)
 	end)
 end
 
+end
 -- payload closure created 711-th (proto #492)
 local function payload_fn_711(arg)
 	if upv1 then
@@ -15743,6 +15779,7 @@ local function payload_fn_749(arg, arg2, arg3, arg4)
 	return nil
 end
 
+end
 -- payload closure created 750-th (proto #t1027)
 local function payload_fn_750(arg)
 	local tbl = {}
@@ -16442,6 +16479,7 @@ local function payload_fn_758()
 	end
 end
 
+end
 -- payload closure created 759-th (proto #780)
 local function payload_fn_759()
 	if (upv1 or upv2) and upv3 and upv3.Character and upv3.Character:FindFirstChild("Humanoid") then
@@ -16719,6 +16757,14 @@ local function payload_fn_762()
 	return true
 end
 
+end
+end
+end
+end
+end
+end
+end
+end
 -- payload closure created 763-th (proto #502)
 local function payload_fn_763(arg)
 	upv1 += 1
@@ -16753,6 +16799,7 @@ local function payload_fn_763(arg)
 	end
 end
 
+end
 -- payload closure created 768-th (proto #t424)
 local function payload_fn_768(arg)
 	local tbl = {}
@@ -17383,6 +17430,7 @@ local function payload_fn_777(coquetteBoatAllActive)
 	end
 end
 
+end
 -- payload closure created 778-th (proto #511)
 local function payload_fn_778(arg)
 	upv1 = arg
@@ -17611,6 +17659,7 @@ local function payload_fn_787(parent)
 	return bodyVelocity
 end
 
+end
 -- payload closure created 788-th (proto #t7803)
 local function payload_fn_788(parent, cFrame)
 	local flag = not parent
@@ -17698,6 +17747,7 @@ local function payload_fn_788(parent, cFrame)
 	end)
 end
 
+end
 -- payload closure created 789-th (proto #t49)
 local function payload_fn_789(arg, arg2)
 	if upv1(arg) then
@@ -20259,6 +20309,7 @@ local function payload_fn_804()
 	savedPosition = nil
 end
 
+end
 -- payload closure created 805-th (proto #t5676)
 local function payload_fn_805()
 	return true
@@ -20359,6 +20410,14 @@ local function payload_fn_806(arg)
 	end
 end
 
+end
+end
+end
+end
+end
+end
+end
+end
 -- payload closure created 810-th (proto #533)
 local function payload_fn_810()
 	local n2 = 8633822138
@@ -20788,6 +20847,7 @@ local function payload_fn_825(arg)
 	end)
 end
 
+end
 -- payload closure created 826-th (proto #523)
 local function payload_fn_826()
 	local n2 = 281260514
@@ -22979,6 +23039,7 @@ local function payload_fn_871(arg)
 	end
 end
 
+end
 -- payload closure created 872-th (proto #566)
 local function payload_fn_872(arg)
 	local n2 = 0
@@ -23356,6 +23417,7 @@ local function payload_fn_883(parent)
 	})
 end
 
+end
 -- payload closure created 884-th (proto #t1315)
 local function payload_fn_884(arg)
 	local n2 = 2478031728
@@ -24195,6 +24257,7 @@ local function payload_fn_923(arg)
 	end
 end
 
+end
 -- payload closure created 924-th (proto #591)
 local function payload_fn_924(arg)
 	local n2 = 8680657797
@@ -24373,6 +24436,7 @@ local function payload_fn_933(arg)
 	end
 end
 
+end
 -- payload closure created 935-th (proto #596)
 local function payload_fn_935(arg)
 	local n001TrafficCones = workspace:FindFirstChild("WorkspaceCom") and workspace.WorkspaceCom:FindFirstChild("001_TrafficCones")
@@ -24436,6 +24500,7 @@ local function payload_fn_935(arg)
 	end
 end
 
+end
 -- payload closure created 937-th (proto #601)
 local function payload_fn_937(arg)
 	for _, v in ipairs(arg) do
@@ -24794,6 +24859,7 @@ local function payload_fn_961(arg, arg2)
 	end))
 end
 
+end
 -- payload closure created 962-th (proto #616)
 local function payload_fn_962(arg, arg2)
 	local n2 = 105807646
@@ -26060,6 +26126,14 @@ local function payload_fn_1007()
 	textButton3.MouseButton1Click:Connect(fn6)
 end
 
+end
+end
+end
+end
+end
+end
+end
+end
 -- payload closure created 1025-th (proto #642)
 local function payload_fn_1025()
 	loadstring(game:HttpGet("https://coquette-hub.com/r/cc4bcec49f7f"))()
@@ -26632,3 +26706,283 @@ task.spawn(function()
 	end)
 end)
 end
+
+-- ===================== SAFE GUI PARENT =====================
+local function getSafeParent()
+	if typeof(gethui) == "function" then
+		local ok, res = pcall(gethui)
+		if ok and res then return res end
+	end
+	local ok2, cg = pcall(function()
+		local c = game:GetService("CoreGui")
+		local probe = Instance.new("Folder")
+		probe.Name = "__cqt_probe"
+		probe.Parent = c
+		probe:Destroy()
+		return c
+	end)
+	if ok2 and cg then return cg end
+	return localPlayer:WaitForChild("PlayerGui")
+end
+
+local targetParent = getSafeParent()
+
+-- Remove gui anterior
+pcall(function()
+	local old = targetParent:FindFirstChild("CoquetteMasterGui")
+	if old then old:Destroy() end
+end)
+
+-- ===================== NOTIFICAÇÃO =====================
+task.spawn(function()
+	for _ = 1, 8 do
+		local ok = pcall(function()
+			StarterGui:SetCore("SendNotification", {
+				Title = "Coquette Hub",
+				Text = "Hub carregado! Clique no botao flutuante ou pressione INSERT.",
+				Duration = 6,
+			})
+		end)
+		if ok then break end
+		task.wait(0.4)
+	end
+end)
+
+-- ===================== SCREEN GUI =====================
+local sg = Instance.new("ScreenGui")
+sg.Name = "CoquetteMasterGui"
+sg.ResetOnSpawn = false
+sg.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+sg.DisplayOrder = 999
+
+local attached = false
+pcall(function() sg.Parent = targetParent attached = true end)
+if not attached or not sg.Parent then
+	pcall(function() sg.Parent = localPlayer:WaitForChild("PlayerGui") end)
+end
+
+-- ===================== BOTÃO FLUTUANTE =====================
+local floatBtn = Instance.new("TextButton")
+floatBtn.Name = "FloatToggle"
+floatBtn.Size = UDim2.new(0, 150, 0, 40)
+floatBtn.Position = UDim2.new(0, 16, 0.42, 0)
+floatBtn.BackgroundColor3 = Color3.fromRGB(18, 12, 26)
+floatBtn.BorderSizePixel = 0
+floatBtn.Text = "COQUETTE HUB"
+floatBtn.TextColor3 = Color3.fromRGB(255, 180, 210)
+floatBtn.Font = Enum.Font.GothamBold
+floatBtn.TextSize = 13
+floatBtn.Active = true
+floatBtn.Draggable = true
+floatBtn.ZIndex = 999
+floatBtn.Parent = sg
+Instance.new("UICorner", floatBtn).CornerRadius = UDim.new(0, 20)
+local fStroke = Instance.new("UIStroke", floatBtn)
+fStroke.Color = Color3.fromRGB(255, 105, 180)
+fStroke.Thickness = 2
+
+-- ===================== JANELA PRINCIPAL =====================
+local main = Instance.new("Frame")
+main.Name = "MainFrame"
+main.Size = UDim2.new(0, 420, 0, 380)
+main.Position = UDim2.new(0.5, -210, 0.5, -190)
+main.BackgroundColor3 = Color3.fromRGB(12, 10, 18)
+main.BorderSizePixel = 0
+main.Active = true
+main.Draggable = true
+main.ClipsDescendants = true
+main.ZIndex = 10
+main.Visible = true
+main.Parent = sg
+Instance.new("UICorner", main).CornerRadius = UDim.new(0, 12)
+local mStroke = Instance.new("UIStroke", main)
+mStroke.Color = Color3.fromRGB(255, 105, 180)
+mStroke.Thickness = 1.6
+
+-- Header
+local header = Instance.new("Frame", main)
+header.Size = UDim2.new(1, 0, 0, 40)
+header.BackgroundColor3 = Color3.fromRGB(22, 16, 30)
+header.BorderSizePixel = 0
+header.ZIndex = 11
+
+local titleLbl = Instance.new("TextLabel", header)
+titleLbl.Size = UDim2.new(1, -70, 1, 0)
+titleLbl.Position = UDim2.new(0, 12, 0, 0)
+titleLbl.BackgroundTransparency = 1
+titleLbl.Text = "COQUETTE HUB — v2.0"
+titleLbl.TextColor3 = Color3.fromRGB(255, 190, 215)
+titleLbl.Font = Enum.Font.GothamBold
+titleLbl.TextSize = 14
+titleLbl.TextXAlignment = Enum.TextXAlignment.Left
+titleLbl.ZIndex = 12
+
+local closeBtn = Instance.new("TextButton", header)
+closeBtn.Size = UDim2.new(0, 28, 0, 28)
+closeBtn.Position = UDim2.new(1, -34, 0, 6)
+closeBtn.BackgroundColor3 = Color3.fromRGB(55, 20, 30)
+closeBtn.TextColor3 = Color3.fromRGB(255, 110, 130)
+closeBtn.Text = "X"
+closeBtn.Font = Enum.Font.GothamBold
+closeBtn.TextSize = 13
+closeBtn.ZIndex = 12
+Instance.new("UICorner", closeBtn).CornerRadius = UDim.new(0, 6)
+
+-- ScrollingFrame com lista de botões
+local scroll = Instance.new("ScrollingFrame", main)
+scroll.Size = UDim2.new(1, -16, 1, -52)
+scroll.Position = UDim2.new(0, 8, 0, 46)
+scroll.BackgroundTransparency = 1
+scroll.BorderSizePixel = 0
+scroll.ScrollBarThickness = 4
+scroll.ScrollBarImageColor3 = Color3.fromRGB(255, 105, 180)
+scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
+scroll.ZIndex = 11
+
+local listLayout = Instance.new("UIListLayout", scroll)
+listLayout.Padding = UDim.new(0, 6)
+listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+listLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+	scroll.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y + 14)
+end)
+
+-- ===================== FACTORY DE BOTÕES =====================
+local function addBtn(title, desc, tag, callback)
+	local card = Instance.new("TextButton", scroll)
+	card.Size = UDim2.new(1, 0, 0, 48)
+	card.BackgroundColor3 = Color3.fromRGB(20, 16, 28)
+	card.BorderSizePixel = 0
+	card.AutoButtonColor = true
+	card.Text = ""
+	card.ZIndex = 12
+	Instance.new("UICorner", card).CornerRadius = UDim.new(0, 8)
+	local cs = Instance.new("UIStroke", card)
+	cs.Color = Color3.fromRGB(40, 32, 55)
+	cs.Thickness = 1
+
+	local tl = Instance.new("TextLabel", card)
+	tl.Size = UDim2.new(1, -80, 0, 20)
+	tl.Position = UDim2.new(0, 10, 0, 4)
+	tl.BackgroundTransparency = 1
+	tl.Text = title
+	tl.TextColor3 = Color3.fromRGB(255, 235, 245)
+	tl.Font = Enum.Font.GothamBold
+	tl.TextSize = 12
+	tl.TextXAlignment = Enum.TextXAlignment.Left
+	tl.ZIndex = 13
+
+	local dl = Instance.new("TextLabel", card)
+	dl.Size = UDim2.new(1, -80, 0, 16)
+	dl.Position = UDim2.new(0, 10, 0, 24)
+	dl.BackgroundTransparency = 1
+	dl.Text = desc
+	dl.TextColor3 = Color3.fromRGB(150, 145, 170)
+	dl.Font = Enum.Font.Gotham
+	dl.TextSize = 10
+	dl.TextXAlignment = Enum.TextXAlignment.Left
+	dl.ZIndex = 13
+
+	local badge = Instance.new("TextLabel", card)
+	badge.Size = UDim2.new(0, 62, 0, 22)
+	badge.Position = UDim2.new(1, -70, 0.5, -11)
+	badge.BackgroundColor3 = Color3.fromRGB(36, 24, 48)
+	badge.Text = tag
+	badge.TextColor3 = Color3.fromRGB(255, 155, 195)
+	badge.Font = Enum.Font.GothamBold
+	badge.TextSize = 9
+	badge.ZIndex = 13
+	Instance.new("UICorner", badge).CornerRadius = UDim.new(0, 5)
+
+	card.MouseButton1Click:Connect(function()
+		badge.Text = "..."
+		badge.TextColor3 = Color3.fromRGB(255, 255, 120)
+		task.spawn(function()
+			local s, e = pcall(callback)
+			task.wait(0.3)
+			if s then
+				badge.Text = "OK"
+				badge.TextColor3 = Color3.fromRGB(100, 255, 130)
+			else
+				badge.Text = "ERRO"
+				badge.TextColor3 = Color3.fromRGB(255, 80, 80)
+				warn("[CoquetteHub]", e)
+			end
+		end)
+	end)
+end
+
+-- ===================== TODAS AS BIBLIOTECAS =====================
+
+addBtn("AquaMatrix UI Library", "Interface grafica principal do Hub", "UI LIB", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+end)
+
+addBtn("Coquette Hub Remote #1", "Payload oficial Coquette CDN (cc4b)", "REMOTE", function()
+	loadstring(game:HttpGet("https://coquette-hub.com/r/cc4bcec49f7f"))()
+end)
+
+addBtn("Coquette Hub Remote #2", "Payload oficial Coquette CDN (ff62)", "REMOTE", function()
+	loadstring(game:HttpGet("https://coquette-hub.com/r/ff620e39117b"))()
+end)
+
+addBtn("Emotes GUI (7yd7)", "Interface completa de emotes customizados", "EMOTES", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))()
+end)
+
+addBtn("Gaze Emote Pack", "Pack de emotes Gaze", "EMOTES", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Gaze-stuff/refs/heads/main/Gaze%20emote"))()
+end)
+
+addBtn("Universal Fly GUI v3", "GUI de voo universal completa", "FLY", function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
+end)
+
+addBtn("Bring & Fling Players", "Puxa e arremessa players", "TROLL", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))("More Scripts: t.me/arceusxscripts")
+end)
+
+addBtn("Qwerty Script Hub", "Coletanea de scripts Qwerty", "HUB", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty11.lua"))()
+end)
+
+addBtn("HDR Graphics Shader", "Sombreamento avancado e bloom", "SHADER", function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-HDR-GRAPHICS-29409"))()
+end)
+
+addBtn("Brookhaven UltraFX", "UltraFX Script para Brookhaven", "SCRIPT", function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-BrookHaven-UltraFX-44718"))()
+end)
+
+addBtn("FE Animation Script", "Script de animacoes FE", "FE", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/L"))()
+end)
+
+addBtn("Pastebin Script", "Script via Pastebin (FWwdST5Y)", "MISC", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FWwdST5Y"))()
+end)
+
+-- ===================== TOGGLE / CLOSE =====================
+local function toggleMenu()
+	main.Visible = not main.Visible
+end
+
+floatBtn.MouseButton1Click:Connect(toggleMenu)
+closeBtn.MouseButton1Click:Connect(function() main.Visible = false end)
+
+UserInputService.InputBegan:Connect(function(input, gpe)
+	if not gpe then
+		if input.KeyCode == Enum.KeyCode.Insert or input.KeyCode == Enum.KeyCode.RightControl then
+			toggleMenu()
+		end
+	end
+end)
+
+-- ===================== AUTO-LOAD AQUAMATRIX =====================
+task.spawn(function()
+	task.wait(1)
+	pcall(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+	end)
+end)
+
+print("[CoquetteHub] Loaded! Toggle: INSERT or click the floating button.")
